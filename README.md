@@ -1,0 +1,1 @@
+# seniorx-logging-camel-api
