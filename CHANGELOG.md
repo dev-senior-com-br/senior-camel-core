@@ -8,11 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Base RouteBuilder implementation.
-- Logging MDC configuration.
 
 ### Changed
 
 ### Fixed
 
 ### Removed
+
+## [1.0.0] - 2022-05-09
+
+### Added
+- Base RouteBuilder implementation.
+- Logging MDC configuration.
