@@ -1,0 +1,1 @@
+# Senior Camel Core
