@@ -36,11 +36,6 @@ public abstract class SeniorRouteBuilder extends RouteBuilder {
         MDC.put("primitive", primitive);
         MDC.put("contextId", contextId);
         MDC.put("requestId", requestId);
-
-        org.jboss.logmanager.MDC.put("tenant", tenant == null ? null : tenant.toString());
-        org.jboss.logmanager.MDC.put("primitive", primitive == null ? null : primitive.toString());
-        org.jboss.logmanager.MDC.put("contextId", contextId == null ? null : contextId.toString());
-        org.jboss.logmanager.MDC.put("requestId", requestId == null ? null : requestId.toString());
     }
 
 }
